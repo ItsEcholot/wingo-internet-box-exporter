@@ -1,0 +1,17 @@
+{
+  "name": "wingo-internet-box-exporter",
+  "version": "1.0.0",
+  "description": "Gets and exports stats from the Wingo provided Internet Box 2 in a Prometheus compatible format",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marc Berchtold",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.2.3",
+    "prom-client": "^14.0.1"
+  }
+}
